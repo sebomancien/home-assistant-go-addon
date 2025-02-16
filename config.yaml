@@ -1,0 +1,12 @@
+name: "My Go Add-on"
+version: "1.0"
+slug: "my_go_addon"
+description: "A simple Hello World add-on written in Go."
+arch:
+  - amd64
+  - armv7
+  - armhf
+startup: "application"
+boot: "auto"
+ports:
+  3000/tcp: 3000
