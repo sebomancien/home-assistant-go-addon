@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/sebomancien/goth-template/internal/middleware"
-	"github.com/sebomancien/goth-template/internal/templ"
+	"github.com/sebomancien/home-assistant-go-addon/internal/middleware"
+	"github.com/sebomancien/home-assistant-go-addon/internal/templ"
 )
 
 const (

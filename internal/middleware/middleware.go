@@ -4,7 +4,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/sebomancien/goth-template/internal/context"
+	"github.com/sebomancien/home-assistant-go-addon/internal/context"
 )
 
 func logging(handler func(w http.ResponseWriter, r *http.Request)) func(w http.ResponseWriter, r *http.Request) {
